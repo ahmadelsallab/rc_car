@@ -9,6 +9,7 @@ Two modes are supported:
 
 
 ## ROS2 Node Teleop
+Both Pi and Remote PC shall have the same ROS_DOMAIN_ID in ther env vars (can be set by `export ROS_DOMAIN_ID=0` or any common number).
 
 ### Pi side
 Eiher as ROS2 node:
